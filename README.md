@@ -386,14 +386,6 @@ pub fn led_state(&self, index: usize) -> LedState {
 
 <br>
 
-# 📖 Next Steps
-Once you've mastered blinking multiple LEDs in sequence, you're ready for:
-- **DAY003**: Traffic light simulation (Red, Yellow, Green)
-- **DAY004**: LED brightness control with PWM
-- **DAY006**: LED chaser/Knight Rider effect
-
-<br>
-
 # 🔗 Resources
 
 ## Official Documentation
