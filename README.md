@@ -221,8 +221,14 @@ This will:
 2. Flash it to the Pico 2 using probe-rs
 3. Start the LED sequence
 
-## Expected Output
+### Expected Output
 Each LED stays on for 250ms before the next one lights up. The pattern repeats continuously, creating a "chasing" or "running" light effect.
+
+## Step 4: Test
+```bash
+make test
+```
+This will run all of the unittests to ensure our project is functioning correctly and that recent changes haven't introduced regressions.
 
 <br>
 
